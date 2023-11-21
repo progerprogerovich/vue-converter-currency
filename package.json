@@ -1,11 +1,14 @@
 {
-  "name": "vue-converter",
+  "name": "vue-converter-currency",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://progerprogerovich.github.io/vue-converter-currency",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
