@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <h1>VueJS Currency Exchange App</h1>
+    <h1>Приложение для обмена валюты</h1>
     <div class="container">
       <div class="container-one">
         <select
@@ -154,8 +154,9 @@ img {
 
 .container-two {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  margin-top: 10px;
   width: 50%;
 }
 
@@ -164,7 +165,7 @@ img {
   padding: 5px;
   font-size: 18px;
   background-color: #5fbaaf;
-  width: 30%;
+  width: 25%;
   height: 10%;
   border: none;
   outline: none;
